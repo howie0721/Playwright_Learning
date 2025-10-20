@@ -6,8 +6,8 @@
 3. 依指示選擇語言（TypeScript/JavaScript）與測試框架
 
 ## 建立基本測試檔案
-- 在 `tests` 資料夾中新增測試檔案，如 `example.spec.ts`
-- 撰寫第一個測試案例：
+- 在 `tests` 資料夾中新增測試檔案，例如 `example.spec.ts`
+- 範例測試：
 
 ```typescript
 import { test, expect } from '@playwright/test';
@@ -19,5 +19,5 @@ test('首頁標題驗證', async ({ page }) => {
 ```
 
 ## 執行測試
-- 在終端機執行 `npx playwright test` 開始測試
+- 在終端機執行 `npx playwright test`
 - 查看測試結果與報告
