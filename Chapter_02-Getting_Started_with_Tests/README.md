@@ -8,7 +8,6 @@
 ## 建立基本測試檔案
 - 在 `tests` 資料夾中新增測試檔案，例如 `example.spec.ts`
 - 範例測試：
-
 ```typescript
 import { test, expect } from '@playwright/test';
 
